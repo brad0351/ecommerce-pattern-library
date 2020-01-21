@@ -1,0 +1,15 @@
+:root {
+  --color-primary: c1d4d9;
+  --color-primary-light: bcdc6d2;
+  --color-secondary: lightcoral;
+  --color-accent: green;
+  --colour-neutral-beige: #FAFAFA;
+  --color-whatever: peachpuff;
+
+  --font-primary: "LTC Globe Gothic", "Trebuchet MS" , Arial, sans-serif;
+  --front-secondary: "Source Codse Pro", Menlo, Consolas, monospace;
+}
+
+html {
+  font-family: var(--font-primary);
+}
