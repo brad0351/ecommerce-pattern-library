@@ -1,0 +1,10 @@
+.btn {
+  background-color: var(--#C8DADE)
+  border-color: none;
+  color: var(--color-secondary-light);
+}
+
+.btn:hover {
+  background-color: #868686;
+  border-color: none;
+}
