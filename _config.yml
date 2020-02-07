@@ -1,2 +1,10 @@
 permalink: pretty
 theme: jekyll_patternbot
+
+patternbot:
+  title: "Diet Water"
+  description: |
+    Diet Water is a website dedicated to selling an all natural diet supplement.
+
+  rationales:
+    typeface.primary: | 
