@@ -1,10 +1,11 @@
 :root {
   --color-primary: #c1d4d9;
-  --color-primary-light: #FAFAFA;
+  --color-primary-light: #CCE0E6;
+  --color-primary-dark: #717D80;
   --color-secondary: #bcd6d2;
   --color-accent: #707070;
   --colour-neutral-beige: #FAFAFA;
-  --color-whatever: ;
+  --color-whatever: #fff;
 
   --font-primary: Arial, sans-serif;
   --font-secondary: "LTC Globe Gothic" , "Source Codse Pro", Menlo, Consolas, monospace;
@@ -52,6 +53,11 @@ dl {
 
 a {
   font-family: var(--font-secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  border-color: var(--color-accent);
 }
 
 blockquote {
@@ -108,5 +114,5 @@ s {
 }
 
 u {
-  
+
 }
