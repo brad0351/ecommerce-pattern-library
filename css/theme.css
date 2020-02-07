@@ -1,15 +1,112 @@
 :root {
   --color-primary: #c1d4d9;
-  --color-primary-light: ;
+  --color-primary-light: #FAFAFA;
   --color-secondary: #bcd6d2;
   --color-accent: #707070;
   --colour-neutral-beige: #FAFAFA;
   --color-whatever: ;
 
-  --font-primary: "LTC Globe Gothic", "Trebuchet MS" , Arial, sans-serif;
-  --front-secondary: "Source Codse Pro", Menlo, Consolas, monospace;
+  --font-primary: Arial, sans-serif;
+  --font-secondary: "LTC Globe Gothic" , "Source Codse Pro", Menlo, Consolas, monospace;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-secondary);
+}
+
+h2 {
+  font-family: var(--font-secondary);
+}
+
+h3 {
+  font-family: var(--font-secondary);
+}
+
+h4 {
+  font-family: var(--font-secondary);
+}
+
+h5 {
+  font-family: var(--font-secondary);
+}
+
+h6 {
+  font-family: var(--font-secondary);
+}
+
+ul {
+  font-family: var(--font-primary: Arial, sans-serif);
+}
+
+ol {
+  font-family: var(--font-primary: Arial, sans-serif);
+}
+
+dl {
+  font-family: var(--font-primary: Arial, sans-serif);
+}
+
+a {
+  font-family: var(--font-secondary);
+}
+
+blockquote {
+  font-family: var(--font-secondary);
+}
+
+cite {
+
+}
+
+em {
+  font-weight: 400;
+}
+
+strong {
+  font-weight: bold;
+}
+
+del {
+
+}
+
+ins {
+
+}
+
+abbr {
+
+}
+
+dfn {
+  font-weight: 400;
+}
+
+i {
+
+}
+
+b {
+  font-weight: bold;
+}
+
+mark {
+  background-color: #C8DADE;
+  color: black;
+}
+
+q {
+
+}
+
+s {
+
+}
+
+u {
+  
 }
