@@ -6,5 +6,17 @@ patternbot:
   description: |
     Diet Water is a website dedicated to selling an all natural diet supplement.
 
+  colors:
+    patterns:
+      brand.logos: "--color-primary-light"
+      h1: "--colour-neutral-beige"
+
   rationales:
-    typeface.primary: | Helvetica is the primary type face. 
+    typefaces.primary: |
+      Helvetica is the primary type face. It was chosen because it is a clean font with a proven reccord.
+    typefaces.secondary: |
+      LTC Globe Gothic was selected because it has a cool look and goes well as a header.
+    colors.primary: |
+      The primary colours are blue to represent water. They should be used on the logo and in the background of website when appropriate.
+    colors.secondary: |
+      The secondary colours are a grren with a blue tinge. It gives it another water look but has contrast from the main blue. This can be used for cards or behind text.

@@ -1,0 +1,41 @@
+.card {
+  box-shadow: var(--color-primary-dark);
+  transition: box-shadow .20s;
+  max-width: sans-serif;
+  border: 3px solid var(--color-accent);
+  border-radius: 4px;
+  background-color: var(--color-neutral-beige);
+  display: block;
+}
+
+.card-pack {
+  box-shadow: var(--color-primary-dark);
+  transition: box-shadow .20s;
+  max-width: sans-serif;
+  border: 3px solid var(--color-accent);
+  border-radius: 4px;
+  background-color: var(--color-secondary);
+  display: block;
+}
+
+.btn {
+
+}
+
+h2 {
+  color: var(--color-primary-dark);
+}
+
+h3 {
+  color: var(--color-neutral-beige);
+}
+
+p {
+  color: var(--color-accent);
+}
+ .card:hover span.btn-ghost,
+
+
+@media only screen and (min-width: 38em) {}
+
+@media only screen and (min-width: 60em) {}
