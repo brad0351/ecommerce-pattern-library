@@ -2,6 +2,7 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  font_url: <link rel="stylesheet" href="https://use.typekit.net/mue7jyh.css">
   title: "Diet Water"
   description: |
     Diet Water is a website dedicated to selling an all natural diet supplement.
@@ -20,3 +21,29 @@ patternbot:
       The primary colours are blue to represent water. They should be used on the logo and in the background of website when appropriate.
     colors.secondary: |
       The secondary colours are a grren with a blue tinge. It gives it another water look but has contrast from the main blue. This can be used for cards or behind text.
+
+LTC Globe Gothic Bold Italic
+
+font-family: ltc-globe-gothic, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+LTC Globe Gothic Bold
+
+font-family: ltc-globe-gothic, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+LTC Globe Gothic Regular
+
+font-family: ltc-globe-gothic, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
