@@ -1,4 +1,4 @@
-html {
+header {
   font:
 }
 
@@ -6,6 +6,7 @@ html {
   box-shadow: 0 3px 8px rgba(0, 0, 0, .15);
   border-bottom: 2px solid var(--color-primary);
   background-color: #fff;
+  color: var(--color-accent);
   position: fixed;
   width: 100%;
   top: 0;
