@@ -6,14 +6,8 @@
   color: var(--color-accent);
 }
 
-.btn-basic {
-  font-family: var(--font-primary);
-  font-weight: 600;
-  background: var(--color-secondary);
-}
-
 .btn-ghost {
-  background-color: var(--color-neutral-white);
+  background-color: transparent;
   border-color: var(--color-secondary);
   color: var(--color-primary-dark);
 }
@@ -40,3 +34,4 @@
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: var(--color-primary-dark);
+}

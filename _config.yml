@@ -31,6 +31,6 @@ collections:
 
 defaults:
   -scope:
-    path: _products
-  values:
-    layout: product
+     path: _products
+   values:
+     layout: product
