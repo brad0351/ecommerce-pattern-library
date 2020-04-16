@@ -8,16 +8,14 @@ patterns:
     description: |
       Defult to using the basic button. It should always be used in front of the light backgrounds.
     background: "--color-primary-dark"
-    width: "12em"
 
   ghost:
     title: "Ghost"
     description: |
       The ghost button is specifically for banners, where it will be placed in front of busy images or other areas it is required.
-    width: "12em"
+
 
   light:
     title: "Light"
     description: |
       The light button is specifically for banners or images, that have a dark background.
-    width: "12em"
