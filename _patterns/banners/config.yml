@@ -1,0 +1,28 @@
+title: "Banners"
+description: |
+  These are the banners that appear at the top of the pages. They are static.
+
+patterns:
+  banner:
+    title: "Simple Banner"
+    description: |
+      This is a simple header banner.
+    fields:
+      - name: heading
+        type: string
+        example: "All Natural"
+      - name: text
+        type: string
+        example: "Diet Water is nature’s all natural sugarless drink. This amazing product has been around since the dinosaurs and has been proven an essential source of life for trillions of species. Diet water is tasteless and odourless. It will not offend your taste-buds. By replacing your current beverage with diet water, you are guaranteed to lose weight and live a healthier life. Try it today!"
+
+  products-banner:
+    title: "products Banner"
+    description: |
+      This is a simple header banner.
+    fields:
+      - name: heading
+        type: string
+        example: "Products"
+      - name: text
+        type: string
+        example: "This is the products page. Diet Water is amazing! ORDER TODAY!"
