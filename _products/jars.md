@@ -8,4 +8,4 @@ colors:
   - "blue"
   - "green"
 Shape: "round"
-clarity: "VVS1"
+category-icon: "logo"

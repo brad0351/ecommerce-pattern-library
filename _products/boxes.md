@@ -8,5 +8,5 @@ colors:
   - "blue"
   - "green"
 Shape: "rectangle"
-clarity: "VVS1"
+category-icon: "logo"
 ---
