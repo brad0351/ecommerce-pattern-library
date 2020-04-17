@@ -73,6 +73,10 @@ h1 {
   color: var(--color-primary-dark);
 }
 
+.products{
+  align-items: stretch;
+}
+
 @media only screen and (min-width: 38em) {
 
   .nav .unit:first-child {

@@ -23,5 +23,17 @@ header {
 }
 
 h1 {
+  position: absolute;
+  text-align: left;
   var(--color-primary-dark);
+  display: inline-block;
+}
+
+h1 {
+  overflow: hidden;
+}
+
+
+.nav {
+  overflow: hidden;
 }
