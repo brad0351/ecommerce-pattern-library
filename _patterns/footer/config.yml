@@ -1,0 +1,11 @@
+title: "Footer"
+description: |
+    This is the navigation menu at the bottom. It should be used at the bottom of the page.
+
+patterns:
+    header:
+      title: "Footer"
+      description: |
+      This navigation is at the bottom of the page and allows users to navigate the website to other pages.
+      width: "20em"
+      height: 400
