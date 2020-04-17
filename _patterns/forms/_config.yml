@@ -1,0 +1,65 @@
+title: "Forms"
+description: |
+  Forms are used for ordering and purchasing. There is not a sign up or subscribe option for this site.
+
+patterns:
+  select:
+    title: "selection"
+    description: |
+    Used to select items from selection options
+    width: 600
+  checkout:
+    title: "checkout tems"
+    description: |
+      used to checkout items for purchase.
+    fields:
+      - name: 'label'
+        type: 'string'
+        example: 'Text Field'
+      - name: 'placeholder'
+        type: 'string'
+        example: 'eg. Write Text Here'
+    width: 600
+  digits:
+    title: "digits"
+    description: |
+      used to fill out number items
+    fields:
+      - name: 'label'
+        type: 'string'
+        example: 'number field'
+      - name: 'placeholder'
+        type: 'string'
+        example: 'eg. amount'
+    width: 600
+  info:
+    title: "info"
+    description: |
+      credit card info goes here.
+    fields:
+      - name: 'label'
+        type: 'string'
+        example: 'Email Address'
+      - name: 'placeholder'
+        type: 'string'
+        example: 'yourname@email.com'
+    width: 600
+  checkmark:
+    title: "chackmark"
+    description: |
+      select something with a chackmark option
+    fields:
+      - name: 'label'
+        type: 'string'
+        example: 'select to chackmark'
+    width: 600
+  radio-button:
+    title: "Radio"
+    description: |
+      Radio buttons can be used for establishing more information about the customer, and confirming their consent to being emailed by the company.
+    fields:
+      - name: 'legend'
+        type: 'string'
+        example: 'slide button to get notifications'
+    width: 600
+  

@@ -3,7 +3,10 @@
   max-height: 100%;
 }
 
-h1,
+h1{
+  color: var(--color-primary-dark);
+}
+
 p {
   color: var(--color-primary-dark);
 }

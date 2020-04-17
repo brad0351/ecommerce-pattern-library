@@ -1,3 +1,10 @@
 ---
 layout: default
 ---
+
+{% pattern banners/products-banner heading="Products" text="This is the products page. Diet Water is amazing! ORDER TODAY!" %}
+<h1>{{page.name}}</h1>
+<p>{{page.description}}</p>
+<img src="/images/{{page.image}}" alt="">
+
+{% pattern cards/cards-product %}

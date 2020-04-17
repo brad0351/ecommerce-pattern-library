@@ -1,0 +1,46 @@
+ title: "Cards"
+description: |
+  Cards are used throughout the site to show products.
+
+patterns:
+  card-pack:
+    title: "Card Dark"
+    description: |
+      A dark card, to be used on lighter backgrounds.
+    fields:
+      - name: 'h1'
+        type: 'string'
+        example: 'The Hydration 6-pack'
+      - name: text
+        type: string
+        example: "This can is not only 100% hydrating, it is also 100% recyclable aluminum. It comes in a 6-pack, just like beer, but it is way healthier. It has no smell and little taste. Plus, it is safe to drive after consuming it. It is perfect for hot summer days to help you feel cool in the heat. The can will stay nice and cool when refrigerated. Diet water is all natural and is an ancient secret of all civilization prior to beverages just being unhealthy liquid sugar."
+      - name: 'link'
+        type: 'url'
+        example: '#'
+  card-info:
+    title: "Card Light"
+    description: |
+      A light card, to be used on darker backgrounds. Displays on the left side of banners.
+    fields:
+      - name: 'h1'
+        type: 'string'
+        example: 'The Water Box'
+      - name: text
+        type: string
+        example: "This box in not plastic. It is recyclable and also decomposable. It comes in a 6-pack, just like juice boxes, but it is way healthier. It has no smell and little taste. Plus, it is safe to give messy kids as it does not stain. It is perfect for hot summer days to help you feel cool in the heat. The box will stay nice and cool when refrigerated. Diet water is all natural and is an ancient secret of all civilization prior to beverages just being unhealthy liquid sugar."
+      - name: 'link'
+        type: 'url'
+        example: '#'
+card-products:
+    title: "Card Light"
+    description: |
+      A light card that is thin, to be used on darker backgrounds. Uses buttons.
+    fields:
+      - name: 'h1'
+        type: 'string'
+        example: 'Box Diet Water'
+      - name: text
+        type: string
+        example: "All natural diet water"
+        type: 'url'
+        example: '#'
