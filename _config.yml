@@ -10,7 +10,6 @@ patternbot:
     patterns:
       brand.logos: "--color-primary-light"
       h1: "--colour-neutral-beige"
-
   rationales:
     typefaces.primary: |
       Helvetica is the primary type face. It was chosen because it is a clean font with a proven reccord.
@@ -20,15 +19,12 @@ patternbot:
       The primary colours are blue to represent water. They should be used on the logo and in the background of website when appropriate.
     colors.secondary: |
       The secondary colours are a grren with a blue tinge. It gives it another water look but has contrast from the main blue. This can be used for cards or behind text.
-
 layouts:
-    default: |
-      The default layout should be used for almost every page, it includes the website's primary header and footer.
-
+  default: |
+    The default layout should be used for almost every page, it includes the website's primary header and footer.
 collections:
   products:
     output: true
-
 defaults:
   - scope:
       path: _products
