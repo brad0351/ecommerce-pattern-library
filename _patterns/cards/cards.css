@@ -29,6 +29,15 @@
 
 .card-pack {
   text-align: center;
+
+}
+
+.cards-main {
+  display: flex;
+
+  align-items: flex-start;
+}
+
 }
 
 .card-info {
