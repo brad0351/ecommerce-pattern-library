@@ -56,23 +56,23 @@ select.sort {
 }
 
 .flag-optional {
-  color: #999;
+  color: var(--color-accent);
 }
 
 .is-validated input:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before {
-  border-color: #f33;
+  border-color: var(--color-primary-dark);
 }
 
 .error-message {
   display: none;
-  background-color: #fee;
-  color: #c33;
+  background-color: var(--color-primary-light);
+  color: var(--color-secondary);
 }
 
 .error-message-highlighted,
 .error-message-highlighted h3 {
-  background-color: #c33;
+  background-color: var(--color-whatever);
   color: #fff;
 }
 

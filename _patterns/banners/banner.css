@@ -1,13 +1,12 @@
-.banner,
 .banner-products {
   max-height: 100%;
 }
 
-h1{
+.banner-title {
   color: var(--color-primary-dark);
 }
 
-p {
+.banner-info {
   color: var(--color-primary-dark);
 }
 
@@ -57,3 +56,5 @@ p {
   to {
     left: 0;
   }
+
+}

@@ -43,15 +43,11 @@
 .card-info .btn {
 
 
-h2 {
-  color: var(--color-primary-dark);
-}
-
-h3 {
+.sub-title {
   color: var(--color-neutral-beige);
 }
 
-p {
+.text {
   color: var(--color-accent);
 }
  .card:hover span.btn-ghost,

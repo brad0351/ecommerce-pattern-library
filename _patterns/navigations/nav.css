@@ -59,12 +59,6 @@ header {
   text-align: center;
 }
 
-h1 {
-  margin: 0;
-  text-align: left;
-  display: absolute;
-}
-
 .borderify {
   border: .2em solid var(--color-neutral);
 

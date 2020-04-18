@@ -1,8 +1,12 @@
-header {
-  font:
+.header {
+  color: var(--color-primary-dark);
 }
 
- a {
+ {
+  background: var(--color-primary);
+}
+
+ .text {
   box-shadow: 0 3px 8px rgba(0, 0, 0, .15);
   border-bottom: 2px solid var(--color-primary);
   background-color: #fff;
@@ -22,18 +26,32 @@ header {
   border-bottom: 2px solid var(--color-primary);
 }
 
-h1 {
-  position: absolute;
-  text-align: left;
-  var(--color-primary-dark);
-  display: inline-block;
+@media only screen and (min-width: 38em) {
+
+  .nav .unit:first-child {
+    text-align: left;
+  }
+
+  .nav .unit:last-child {
+    text-align: right;
+  }
+
+.xs-hidden {
+    display: block;
+  }
+
 }
 
-h1 {
-  overflow: hidden;
-}
+@media only screen and (min-width: 45em) {
 
+  .nav {
+    width: 2rem;
+    height: 2rem;
+  }
 
-.nav {
-  overflow: hidden;
+  .nav  {
+    width: 1rem;
+    height: 1rem;
+  }
+
 }
